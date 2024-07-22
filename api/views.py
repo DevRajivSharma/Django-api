@@ -7,7 +7,7 @@ from rest_framework.serializers import Serializer
 from .serializers import NoteSerializer
 # Create your views here.
 
-@api_view(['POST'])
+@api_view(['PUT'])
 def add_name(request):
     data = request.data
     f_name = data.get('f_name')
