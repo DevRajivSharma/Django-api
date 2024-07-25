@@ -1,31 +1,31 @@
-Getting Started with Django API
+# Getting Started with Django API
 This project serves as the backend for a React frontend, providing RESTful API services. It is hosted on PythonAnywhere.
 
-Available Commands
+## Available Commands
 In the project directory, you can run:
 
-python manage.py runserver
+### `python manage.py runserver`
 Runs the Django development server.
 Open http://localhost:8000 to view it in your browser.
 
 The server will automatically reload when you make changes to the code.
 You may also see any errors in the terminal.
 
-python manage.py migrate
+### `python manage.py migrate`
 Applies database migrations.
 Use this command to update your database schema whenever your models change.
 
-python manage.py createsuperuser
+### `python manage.py createsuperuser`
 Creates a new superuser account for accessing the Django admin interface.
 Follow the prompts to set up the superuser credentials.
 
-python manage.py collectstatic
+### `python manage.py collectstatic`
 Collects static files into the directory specified by STATIC_ROOT.
 This is useful for deploying the application in production.
 
-Note: Ensure DEBUG is set to False in production and that STATIC_ROOT is correctly configured in settings.py.
+**Note: Ensure DEBUG is set to False in production and that STATIC_ROOT is correctly configured in settings.py.
 
-Deployment
+## Deployment
 The API is hosted on PythonAnywhere. To update the deployment:
 
 Open a Bash console on PythonAnywhere.
@@ -49,7 +49,7 @@ You can learn more about Django and its features in the Django documentation.
 
 To learn about the frontend framework, visit the React documentation.
 
-REST API Design
+## REST API Design
 This section has moved here: https://restfulapi.net/
 
 Best Practices for Django Development
